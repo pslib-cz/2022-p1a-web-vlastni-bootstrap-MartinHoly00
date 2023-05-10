@@ -33,42 +33,43 @@
     </nav>
   </header>
   <main>
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-      <div class="row align-items-center g-lg-5 py-5">
-        <div class="col-lg-7 text-center text-lg-start">
-          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Vertically centered hero sign-up form</h1>
-          <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-        </div>
+    <div class="container py-5"></div>
         <div class="col-md-10 mx-auto col-lg-5">
           <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <h1>Did you want to join our team?</h1>
+            <p><strong>Send us something about you</strong></p>
+
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">Password</label>
+              <input type="info" class="form-control" id="floatingInfo" placeholder="Info">
+              <label for="floatingInfo">Tell me something about you :)</label>
             </div>
-            <div class="checkbox mb-3">
-              <label>
-                <input type="checkbox" value="remember-me"> Remember me
-              </label>
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Send</button>
             <hr class="my-4">
-            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+            <small class="text-body-secondary">All your data will be save. Trust me hehe:))</small>
           </form>
         </div>
       </div>
     </div>
   </main>
-  <footer class="py-3 my-3">
+  <footer class="py-3 my-3" id="footer">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="/index.html" class="nav-link px-3 text-body-secondary">Home</a></li>
       <li class="nav-item"><a href="/showcase.html" class="nav-link px-3 text-body-secondary">All destinations</a></li>
       <li class="nav-item"><a href="/formular.html" class="nav-link px-3 text-body-secondary">Formular</a></li>
     </ul>
     <p class="text-center text-body-secondary">© 2023 Odyssey Travels</p>
+    <style>
+      footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+} 
+    </style>
   </footer>
 </body>
 </html>
